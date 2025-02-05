@@ -23,8 +23,8 @@ import (
     "os"
 
     _ "github.com/apache/doris/extension/beats/doris"
-    "github.com/elastic/beats/v7/heartbeat/cmd"
-    _ "github.com/elastic/beats/v7/heartbeat/include"
+    "github.com/elastic/beats/v8/heartbeat/cmd"
+    _ "github.com/elastic/beats/v8/heartbeat/include"
 )
 
 func main() {

@@ -23,7 +23,7 @@ import (
     "os"
 
     _ "github.com/apache/doris/extension/beats/doris"
-    "github.com/elastic/beats/v7/metricbeat/cmd"
+    "github.com/elastic/beats/v8/metricbeat/cmd"
 )
 
 func main() {

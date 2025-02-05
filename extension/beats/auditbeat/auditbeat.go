@@ -23,11 +23,11 @@ import (
     "os"
 
     _ "github.com/apache/doris/extension/beats/doris"
-    "github.com/elastic/beats/v7/auditbeat/cmd"
+    "github.com/elastic/beats/v8/auditbeat/cmd"
 
     // Register modules.
-    _ "github.com/elastic/beats/v7/auditbeat/module/auditd"
-    _ "github.com/elastic/beats/v7/auditbeat/module/file_integrity"
+    _ "github.com/elastic/beats/v8/auditbeat/module/auditd"
+    _ "github.com/elastic/beats/v8/auditbeat/module/file_integrity"
 
     // Register includes.
     _ "github.com/elastic/beats/v7/auditbeat/include"

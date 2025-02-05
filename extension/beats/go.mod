@@ -3,7 +3,7 @@ module github.com/apache/doris/extension/beats
 go 1.20
 
 require (
-	github.com/elastic/beats/v7 v7.17.5
+	github.com/elastic/beats/v8 v8.16.3
 	gotest.tools v2.2.0+incompatible
 )
 

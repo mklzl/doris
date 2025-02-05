@@ -20,15 +20,15 @@
 package main
 
 import (
-    "os"
+	"os"
 
-    _ "github.com/apache/doris/extension/beats/doris"
-    "github.com/elastic/beats/v7/filebeat/cmd"
-    inputs "github.com/elastic/beats/v7/filebeat/input/default-inputs"
+	_ "github.com/apache/doris/extension/beats/doris"
+	"github.com/elastic/beats/v8/filebeat/cmd"
+	inputs "github.com/elastic/beats/v8/filebeat/input/default-inputs"
 )
 
 func main() {
-    if err := cmd.Filebeat(inputs.Init, cmd.FilebeatSettings()).Execute(); err != nil {
-        os.Exit(1)
-    }
+	if err := cmd.Filebeat(inputs.Init, cmd.FilebeatSettings()).Execute(); err != nil {
+		os.Exit(1)
+	}
 }
